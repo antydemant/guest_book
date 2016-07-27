@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && validate()) {
         "','" . $msg . "')
     ";
     mysql_query($sql) or die(mysql_error());
-    header("Location: http://opencart_support/www333/mod4/gbook.php");
+    header("Location: http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF']);
 }
 else {
     if($errors) {
