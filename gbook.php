@@ -34,7 +34,7 @@ if(isset($_GET['delete']) && is_numeric($_GET['delete'])) {
 <!DOCTYPE html>
 <head>
 	<title>Гостевая книга</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<meta charset="utf-8" />
 </head>
 <body>
 <h1>Гостевая книга</h1>
